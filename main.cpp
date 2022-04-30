@@ -9,6 +9,7 @@ int main()
 	cout << calc(&m, a, b) << endl;
 	cout << calc(&d, a, b) << endl;
 	cout << calc(&mult, a, b) << endl;*/
+
 	int n;
 	cin >> n;
 
@@ -21,11 +22,6 @@ int main()
 	{
 		cout << vec[i] << " ";
 	}
-
-
-
-
-
 
 	cout << endl;
 	print(check(vec), vec);
